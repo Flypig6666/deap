@@ -159,7 +159,7 @@ def main():
         if interactive:
             plt.show()
         else:
-            print("Writing cma_mo.png")
+            # print("Writing cma_mo.png")
             plt.savefig("cma_mo.png")
 
     return strategy.parents
